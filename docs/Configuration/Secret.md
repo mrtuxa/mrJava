@@ -9,7 +9,7 @@ cfg.TokenSecret
 Source Code
 
     []: # Language: Java
-    []: # Path: cfg
+    []: # Path: cfg/Secret
 
 ```java
 package cfg;
