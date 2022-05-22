@@ -27,9 +27,9 @@ public class InviteCMD implements MessageCreateListener {
             e.getChannel().sendMessage(new EmbedBuilder()
                     .setTitle("***Invite Manager***")
                     .setDescription("Manage your server's invite codes here!")
-                    .setAuthor("Invite Manager", "https://github.com/mrtuxa", "https://github.com/mrtuxa")
+                    .setAuthor("Invite Manager", "https://github.com/mrtuxa", "https://avatars.githubusercontent.com/u/69870860?v=4")
                     .addField("Invite Code", "Invite Link: https://discord.gg/" + ivlink, false)
-                    .setFooter("executed by" + e.getMessageAuthor().getDisplayName(), e.getMessageAuthor().getAvatar())
+                    .setFooter("executed by " + e.getMessageAuthor().getDisplayName(), e.getMessageAuthor().getAvatar())
             );
         }
     }
