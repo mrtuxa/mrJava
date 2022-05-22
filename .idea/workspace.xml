@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ca03c1-63fb-49e9-a15b-647c9fd7bb41" name="Changes" comment="Discord Rich Presence">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RunTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cfg/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cfg/Settings.java" afterDir="false" />
+    <list default="true" id="f3ca03c1-63fb-49e9-a15b-647c9fd7bb41" name="Changes" comment="Discord Rich Presence with config file">
+      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/InviteListener" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653228250921</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Discord Rich Presence with config file">
+      <created>1653228395366</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228395366</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Discord Rich Presence with config file">
+      <created>1653228639056</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228639056</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,7 +121,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Init" />
     <MESSAGE value="Discord Rich Presence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Discord Rich Presence" />
+    <MESSAGE value="Discord Rich Presence with config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Discord Rich Presence with config file" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
