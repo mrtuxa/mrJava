@@ -26,7 +26,7 @@ public class InviteCMD implements MessageCreateListener {
                             ActionRow.of(SelectMenu.create("options", "Click here to show the options", 1, 1,
                                     Arrays.asList(SelectMenuOption.create("Option One", "You selected Option One!", "Click here to select Option One"),
                                             SelectMenuOption.create("Option Two", "You selected Option Two!", "Click here to select Option Two"),
-                                            SelectMenuOption.create("Option Three", "You selected Option Three!", "Click here to select Option Three"))))))
+                                            SelectMenuOption.create("Option Three", "You selected Option Three!", "Click here to select Option Three"))))));
         }
     }
 }
