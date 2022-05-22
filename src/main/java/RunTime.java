@@ -3,7 +3,6 @@ import cfg.TokenClass;
 import listeners.InviteCMD;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
-import org.javacord.api.entity.channel.TextChannel;
 
 
 public class RunTime {
@@ -19,7 +18,5 @@ public class RunTime {
 
         api.updateActivity(s.getRPCname(), s.getRPCurl());
         System.out.println("Discord API is running.");
-
-        TextChannel channel =
     }
 }
