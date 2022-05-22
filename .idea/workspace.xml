@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ca03c1-63fb-49e9-a15b-647c9fd7bb41" name="Changes" comment="Init">
+    <list default="true" id="f3ca03c1-63fb-49e9-a15b-647c9fd7bb41" name="Changes" comment="Discord Rich Presence">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RunTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cfg/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cfg/Settings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653227855838</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Discord Rich Presence">
+      <created>1653228250921</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228250921</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,8 +106,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Discord Rich Presence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Discord Rich Presence" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
