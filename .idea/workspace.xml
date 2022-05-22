@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3ca03c1-63fb-49e9-a15b-647c9fd7bb41" name="Changes" comment="Discord Rich Presence with config file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/listeners/InviteListener" afterDir="false" />
+    <list default="true" id="f3ca03c1-63fb-49e9-a15b-647c9fd7bb41" name="Changes" comment="Commit via Intellij IDEA">
+      <change beforePath="$PROJECT_DIR$/src/main/java/cfg/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cfg/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/InviteCMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/InviteCMD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mrtuxa &lt;tobias.daut1234@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -33,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
@@ -103,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653228639056</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit via Intellij IDEA">
+      <created>1653228788739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228788739</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,7 +136,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Discord Rich Presence" />
     <MESSAGE value="Discord Rich Presence with config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Discord Rich Presence with config file" />
+    <MESSAGE value="Commit via Intellij IDEA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit via Intellij IDEA" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
