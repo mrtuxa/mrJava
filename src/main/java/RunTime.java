@@ -1,5 +1,6 @@
 import cfg.Settings;
 import cfg.TokenClass;
+import commands.PingModule;
 import listeners.InviteCMD;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
@@ -13,6 +14,7 @@ public class RunTime {
         DiscordApi api = new DiscordApiBuilder()
                 .setToken(secret.getToken())
                 .addListener(new InviteCMD())
+                .addListener(new PingModule())
                 .login()
                 .join();
 
