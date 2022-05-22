@@ -1,5 +1,6 @@
 import cfg.Settings;
 import cfg.TokenClass;
+import listeners.InviteCMD;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
 
@@ -11,6 +12,7 @@ public class RunTime {
         System.out.println("Discord API is starting...");
         DiscordApi api = new DiscordApiBuilder()
                 .setToken(secret.getToken())
+                .addListener(new InviteCMD())
                 .login()
                 .join();
 
