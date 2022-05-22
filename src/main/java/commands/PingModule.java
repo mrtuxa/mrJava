@@ -16,7 +16,7 @@ public class PingModule implements MessageCreateListener {
     public void onMessageCreate(MessageCreateEvent e) {
         if (e.getMessageContent().equalsIgnoreCase(s.getPrefix() + "ping")) {
             long ping = e.getMessage().getCreationTimestamp().until(e.getChannel().getCreationTimestamp(), ChronoUnit.MILLIS);
-            e.getChannel().sendMessage("Ping: " + ping + "ms | Websocket: " + e.getApi().getLatestGatewayLatency() + "ms");
+            e.getChannel().sendMessage("Pong! " + ping + "ms");
         }
     }
 }

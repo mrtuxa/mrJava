@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f3ca03c1-63fb-49e9-a15b-647c9fd7bb41" name="Changes" comment="Commit via Intellij IDEA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/listeners/OnServerJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/listeners/OnServerJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/PingModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/PingModule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/home/mrtuxa/IdeaProjects/mrJava/src/main/java",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.09442872",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "discord-project"
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653233864838</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Commit via Intellij IDEA">
+      <created>1653238167346</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1653238167346</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +209,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
