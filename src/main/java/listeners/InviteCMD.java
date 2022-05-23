@@ -2,11 +2,16 @@ package listeners;
 
 import cfg.Settings;
 import org.javacord.api.entity.channel.ServerTextChannel;
+import org.javacord.api.entity.message.MessageBuilder;
+import org.javacord.api.entity.message.component.ActionRow;
+import org.javacord.api.entity.message.component.Button;
 import org.javacord.api.entity.message.embed.EmbedBuilder;
 import org.javacord.api.entity.server.invite.Invite;
 import org.javacord.api.entity.server.invite.InviteBuilder;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.javacord.api.listener.message.MessageCreateListener;
+
+import java.util.List;
 
 public class InviteCMD implements MessageCreateListener {
 
@@ -31,6 +36,9 @@ public class InviteCMD implements MessageCreateListener {
                     .addField("Invite Code", "Invite Link: https://discord.gg/" + ivlink, false)
                     .setFooter("executed by " + e.getMessageAuthor().getDisplayName(), e.getMessageAuthor().getAvatar())
             );
+            e.getChannel().sendMessage((List<EmbedBuilder>) new MessageBuilder()
+                    .addComponents(
+                            ActionRow.of(Button.link("Invite Link", "https://discord.gg/" + ivlink))));
         }
     }
 }
